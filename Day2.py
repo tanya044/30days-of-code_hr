@@ -1,0 +1,7 @@
+mealprice=float(input())
+tip=float(input())
+tax=float(input())
+tip2=mealprice*(tip/100)
+tax2=mealprice*(tax/100)
+cost=int(mealprice+tip2+tax2)
+print(cost)
